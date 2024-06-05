@@ -1,0 +1,5 @@
+az login 
+az configure --defaults group=Kubernetes-Azure
+az aks get-Credentials --name Kubernetes-Project
+
+kubectl config current-context
