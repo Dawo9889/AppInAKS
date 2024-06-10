@@ -34,7 +34,7 @@ spec:
           image: baitazar/kubernetes-azure-users:latest
           env:
             - name: MONGODB_CONNECTION_URI
-              value: 'mongodb+srv://dawid:Lgy2YEtGah26Fwtg@kubernetes-azure.dxmakl3.mongodb.net/?retryWrites=true&w=majority&appName=kubernetes-azure'
+              value: 'mongodb+srv://CREDENTIALS@kubernetes-azure.dxmakl3.mongodb.net/?retryWrites=true&w=majority&appName=kubernetes-azure'
             - name: AUTH_API_ADDRESSS
               value: 'auth-service.default:3000'
           resources:
